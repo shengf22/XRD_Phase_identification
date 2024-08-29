@@ -1,0 +1,119 @@
+
+#(C) 2024 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_241478-ICSD
+_database_code_ICSD 241478
+_audit_creation_date 2017-08-01
+_chemical_name_common 'Methylammonium lead triiodide'
+_chemical_formula_structural '(C H3 N H3) Pb I3'
+_chemical_formula_sum 'C1 H6 I3 N1 Pb1'
+_chemical_name_structure_type Perovskite#(CH3NH3)PbI3(PhaseII)
+_exptl_crystal_density_diffrn 4.15
+_diffrn_ambient_temperature 293.
+_citation_title
+
+;
+Mechanism of pressure-induced phase transitions, amorphization, and
+absorption-edge shift in photovoltaic methylammonium lead iodide
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Journal of Physical Chemistry Letters' 2016 7 3458 3466 JPCLCD
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Szafranski, Marek'
+primary 'Katrusiak, Andrzej'
+_cell_length_a 8.8548(7)
+_cell_length_b 8.8548(7)
+_cell_length_c 12.6592(11)
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 992.57
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'I 4/m c m'
+_space_group_IT_number 140
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'y, x, -z+1/2'
+2 '-y, -x, -z+1/2'
+3 '-y, x, -z'
+4 'y, -x, -z'
+5 'x, -y, -z+1/2'
+6 '-x, y, -z+1/2'
+7 'x, y, -z'
+8 '-x, -y, -z'
+9 '-y, -x, z+1/2'
+10 'y, x, z+1/2'
+11 'y, -x, z'
+12 '-y, x, z'
+13 '-x, y, z+1/2'
+14 'x, -y, z+1/2'
+15 '-x, -y, z'
+16 'x, y, z'
+17 'y+1/2, x+1/2, -z'
+18 '-y+1/2, -x+1/2, -z'
+19 '-y+1/2, x+1/2, -z+1/2'
+20 'y+1/2, -x+1/2, -z+1/2'
+21 'x+1/2, -y+1/2, -z'
+22 '-x+1/2, y+1/2, -z'
+23 'x+1/2, y+1/2, -z+1/2'
+24 '-x+1/2, -y+1/2, -z+1/2'
+25 '-y+1/2, -x+1/2, z'
+26 'y+1/2, x+1/2, z'
+27 'y+1/2, -x+1/2, z+1/2'
+28 '-y+1/2, x+1/2, z+1/2'
+29 '-x+1/2, y+1/2, z'
+30 'x+1/2, -y+1/2, z'
+31 '-x+1/2, -y+1/2, z+1/2'
+32 'x+1/2, y+1/2, z+1/2'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Pb2+ 2
+I1- -1
+N3- -3
+H1+ 1
+C3+ 2.9
+H1- -1
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Pb1 Pb2+ 4 c 0.5 0.5 0.5 0.0363(12) 1
+I1 I1- 8 h 0.2135(5) 0.2865(5) 0.5 0.0882(19) 1
+I2 I1- 4 a 0.5 0.5 0.75 0.080(2) 1
+N1 N3- 16 l 0.440(10) 0.060(10) 0.272(8) 0.06 0.25
+H1 H1+ 32 m 0.3618 0.0387 0.2328 0.09 0.13
+H2 H1+ 32 m 0.4867 0.0111 0.3186 0.09 0.25
+H3 H1+ 32 m 0.3768 0.1482 0.3303 0.09 0.13
+C1 C3+ 32 m 0.54(2) 0.182(15) 0.221(15) 0.06 0.13
+H4 H1- 32 m 0.6008 0.1195 0.1785 0.09 0.13
+H5 H1- 32 m 0.4805 0.2485 0.175 0.09 0.13
+H6 H1- 32 m 0.5964 0.2414 0.2689 0.072 0.13
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb1 Pb2+ 0.0370(14) 0.0370(14) 0.0348(15) 0. 0. 0.
+I1 I1- 0.074(3) 0.074(3) 0.116(3) -0.046(2) 0. 0.
+I2 I1- 0.109(4) 0.109(4) 0.024(3) 0. 0. 0.
+#End of TTdata_241478-ICSD

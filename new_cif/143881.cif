@@ -1,0 +1,107 @@
+
+#(C) 2024 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_143881-ICSD
+_database_code_ICSD 143881
+_audit_creation_date 2022-02-01
+_chemical_name_common 'Cesium tin bromide (1/1/3)'
+_chemical_formula_structural 'Cs Sn Br3'
+_chemical_formula_sum 'Br3 Cs1 Sn1'
+_chemical_name_structure_type Perovskite#CaTiO3
+_exptl_crystal_density_diffrn 4.18
+_diffrn_ambient_temperature 293.
+_citation_title
+
+;
+An emerging all-inorganic CsSn$_x$Pb$_{1-x}$Br$_3$ (0 ≤ x ≤ 1) perovskite
+single crystal. Insight on structural phase transition and electronic
+properties
+;
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Journal of Physical Chemistry C' 2020 124 13434 13446 JPCCCK
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Xian, Yeming'
+primary 'Zhang, Yongli'
+primary 'Rahman, Naveed Ur'
+primary 'Yin, Hang'
+primary 'Long, Yi'
+primary 'Liu, Peng'
+primary 'Li, Wenzhe'
+primary 'Fan, Jiandong'
+_cell_length_a 5.80180(10)
+_cell_length_b 5.80180(10)
+_cell_length_c 5.80180(10)
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 195.29
+_cell_formula_units_Z 1
+_space_group_name_H-M_alt 'P m -3'
+_space_group_IT_number 200
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 '-z, x, y'
+2 'z, x, -y'
+3 'z, -x, y'
+4 '-z, -x, -y'
+5 'y, -z, x'
+6 '-y, z, x'
+7 'y, z, -x'
+8 '-y, -z, -x'
+9 'x, y, -z'
+10 'x, -y, z'
+11 '-x, y, z'
+12 '-x, -y, -z'
+13 'z, -x, -y'
+14 '-z, -x, y'
+15 '-z, x, -y'
+16 'z, x, y'
+17 '-y, z, -x'
+18 'y, -z, -x'
+19 '-y, -z, x'
+20 'y, z, x'
+21 '-x, -y, z'
+22 '-x, y, -z'
+23 'x, -y, -z'
+24 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Sn2+ 2
+Cs1+ 1
+Br1- -1
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Sn1 Sn2+ 1 b 0.5 0.5 0.5 -0.0272(18) 1.0(3)
+Cs1 Cs1+ 1 a 0. 0. 0. 0.025(3) 1.0(2)
+Br1 Br1- 3 c 0.5 0.5 0. 0.054(4) 1.0(2)
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sn1 Sn2+ -0.0272(18) -0.0272(18) -0.0272(18) 0. 0. 0.
+Cs1 Cs1+ 0.025(3) 0.025(3) 0.025(3) 0. 0. 0.
+Br1 Br1- 0.095(8) 0.094(8) -0.028(4) 0. 0. 0.
+#End of TTdata_143881-ICSD

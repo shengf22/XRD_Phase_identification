@@ -15,33 +15,31 @@
 - XRD embedding -> 1d or 2d (nx1) embedding, continuous
 
 ## Dataset
-### New cif (perovskite only)
-- Mix halide I->Br, manual generation cif, linear in between, step 10% composition
-- FA/Cs/MA, Pb/Sn, Cl/Br/I
+### New cif generation (perovskite only)
+- [x] Data collection for FA/Cs/MA, Pb/Sn, Cl/Br/I
+- [ ] Mix halide I->Br, manual generation cif, linear in between, step 10% composition
 
 ### Preprocess
-- Lattice 0.95-1.05 factor (a,b,c?)
-- Missing peak
-
-### Label
-- Element (EDS) or precursor label: MA Cs Pb Br (text input)
-- Space group label: 64 (output)
-- Chemical formula: gamma-CsPbI3 (human)
+- [x] Lattice strain between -0.02~+0.02 for a, b, c; Step size 0.01.
+- [x] Label 1 - Element (EDS) and precursor label: MA Cs Pb Br (text input)
+- [x] Label 2 - Space group label: 64 (output)
+- [ ] Label 3 - Chemical formula: gamma-CsPbI3 (human)
 
 ### Dataloader
-- Expand from nonzero XRD to full range XRD (5-60 2 theta, 0.01 step size, interpolation?)
-- Random peak intensity 
-- Random crystal size
-- Random mixing ratio
-- Add background noise
+- [x] Missing peak
+- [ ] Expand from nonzero XRD to full range XRD (5-60 2 theta, 0.01 step size, interpolation?)
+- [x] Random peak intensity 
+- [x] Random crystal size
+- [ ] Random mixing ratio
+- [ ] Add background noise
 
 ## Evaluation
-- Output: class label + probability (multi-label classification) -> natural language description
-- Train valid test: 60:20:20
-- Top5 accuracy (precision recall F1)
-- Confusion matrix
+- [ ] Output: class label + probability (multi-label classification) -> natural language description
+- [ ] Train valid test: 60:20:20
+- [ ] Top5 accuracy (precision recall F1)
+- [ ] Confusion matrix
 
-- Compare: No text prior / Wrong text prior
+- [ ] Compare: No text prior / Wrong text prior
 
 ## Extra things to do
-Various data range
+[ ] Various data range

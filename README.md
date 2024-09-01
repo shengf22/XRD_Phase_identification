@@ -20,17 +20,28 @@
 - XRD embedding -> 1d or 2d (nx1) embedding, continuous
 
 ## Dataset
-- Basic dataset: download standard XRD patterns from the dataset (FA/MA/Cs, Pb, I/Br/Cl gradient), impurity (delta phase, PbI2, CsI)
-- Preprocessing: 5-60, 2 theta, step size: 0.01, interpolation
-- Mixed phase dataset: change peak intensity, ratio between different phases (generated), peak shift (halide difference), peak broadening, error generation -> generate large dataset with multiple phases
+### New cif (perovskite only)
+- Mix halide I->Br, manual generation cif, linear in between, step 10% composition
+- FA/Cs/MA, Pb/Sn, Cl/Br/I
 
-- Corresponding text data: possible cations/anions
+### Preprocessing
+- Setting: 5-60, 2 theta, step size: 0.01, interpolation
+- Lattice 0.95-1.05 factor (a,b,c?)
+- Missing peak
 
-- Output: class label + probability (multi-label classification) -> natural language description
+### Label
+- Element (EDS) or precursor label: MA Cs Pb Br (text input)
+- Space group label: 64 (output)
+- Chemical formula: gamma-CsPbI3 (human)
 
-- Train valid test: 60:20:20
+### Dataloader
+- Random peak intensity 
+- Random crystal size
+- Random mixing ratio
 
 ## Evaluation
+- Output: class label + probability (multi-label classification) -> natural language description
+- Train valid test: 60:20:20
 - Top5 accuracy (precision recall F1)
 - Confusion matrix
 

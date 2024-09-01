@@ -15,12 +15,13 @@
 - XRD embedding -> 1d or 2d (nx1) embedding, continuous
 
 ## Dataset
-### New cif generation (perovskite only)
-- [x] Data collection for FA/Cs/MA, Pb/Sn, Cl/Br/I
-- [ ] Mix halide I->Br, manual generation cif, linear in between, step 10% composition
+### New cif for mix perovskite
+- [x] Data collection (Cs/FA/MA, Pb/Sn, Cl/Br/I)
+- [x] Combination search
+- [ ] Mixed cif generation, step size 10% across composition gradient
 
 ### Preprocess
-- [x] Lattice strain between -0.02~+0.02 for a, b, c; Step size 0.01.
+- [x] Lattice strain between -0.02~+0.02 for a, b, c; Step size 0.01
 - [x] Label 1 - Element (EDS) and precursor label: MA Cs Pb Br (text input)
 - [x] Label 2 - Space group label: 64 (output)
 - [ ] Label 3 - Chemical formula: gamma-CsPbI3 (human)

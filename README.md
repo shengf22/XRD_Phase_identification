@@ -15,10 +15,10 @@
 - XRD embedding -> 1d or 2d (nx1) embedding, continuous
 
 ## Dataset
-### New cif for mix perovskite
+### New cif for mix A/B/X perovskite
 - [x] Data collection (Cs/FA/MA, Pb/Sn, Cl/Br/I)
 - [x] Combination search
-- [ ] Mixed cif generation, step size 10% across composition gradient
+- [x] Mixed cif generation, step size 10% across composition gradient
 
 ### Preprocess
 - [x] Lattice strain between -0.02~+0.02 for a, b, c; Step size 0.01

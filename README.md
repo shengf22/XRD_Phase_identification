@@ -24,7 +24,10 @@
 - [x] Lattice strain between -0.02~+0.02 for a, b, c; Step size 0.01
 - [x] Label 1 - Element (EDS) and precursor label: MA Cs Pb Br (text input)
 - [x] Label 2 - Space group label: 64 (output)
-- [ ] Label 3 - Chemical formula: gamma-CsPbI3 (human)
+- [x] Label 3 - Chemical formula: gamma-CsPbI3 (human)
+
+### Impurity and substrate study
+- [] Data collection: target material, potential impurities or substrates, corresponding ICSD (Inorganic Crystal Structure Database) for all materials, references
 
 ### Dataloader
 - [x] Missing peak
@@ -42,5 +45,5 @@
 
 - [ ] Compare: No text prior / Wrong text prior
 
-## Extra things to do
+## Extra / bonus
 [ ] Various data range

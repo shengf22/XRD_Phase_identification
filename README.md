@@ -27,7 +27,7 @@
 - [x] Label 3 - Chemical formula: gamma-CsPbI3 (human)
 
 ### Impurity and substrate study
-- [] Data collection: target material, potential impurities or substrates, corresponding ICSD (Inorganic Crystal Structure Database) for all materials, references
+- [ ] Data collection: target material, potential impurities or substrates, corresponding ICSD (Inorganic Crystal Structure Database) for all materials, references
 
 ### Dataloader
 - [x] Missing peak

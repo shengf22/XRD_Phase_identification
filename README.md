@@ -25,6 +25,7 @@
 - [x] Label 1 - Element (EDS) and precursor label: MA Cs Pb Br (text input)
 - [x] Label 2 - Space group label: 64 (output)
 - [x] Label 3 - Chemical formula: gamma-CsPbI3 (human)
+- [x] Dataset creation (save/load) for i) new cif and ii) ICSD
 
 ### Impurity and substrate study
 - [ ] Data collection: target material, potential impurities or substrates, corresponding ICSD (Inorganic Crystal Structure Database) for all materials, references

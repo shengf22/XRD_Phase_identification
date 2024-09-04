@@ -33,14 +33,15 @@
 ### Dataloader
 - [x] Expand from nonzero to full range XRD
 - [x] Missing peak
-- [x] Random peak intensity 
+- [x] Random peak intensity
 - [x] Random crystal size
 - [x] Mixing of compounds, with random ratio
 - [x] Add background noise
 
+## Training
+
 ## Evaluation
 - [ ] Output: class label + probability (multi-label classification) -> natural language description
-- [ ] Train valid test: 60:20:20
 - [ ] Top5 accuracy (precision recall F1)
 - [ ] Confusion matrix
 

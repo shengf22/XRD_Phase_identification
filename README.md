@@ -36,7 +36,7 @@
 - [x] Random peak intensity 
 - [x] Random crystal size
 - [x] Mixing of compounds, with random ratio
-- [ ] Add background noise
+- [x] Add background noise
 
 ## Evaluation
 - [ ] Output: class label + probability (multi-label classification) -> natural language description

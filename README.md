@@ -32,6 +32,7 @@
 
 ### Dataloader
 - [x] Expand from nonzero to full range XRD
+- [ ] Substrate peak (ITO/FTO)
 - [x] Missing peak
 - [x] Random peak intensity
 - [x] Random crystal size
@@ -39,6 +40,9 @@
 - [x] Add background noise
 
 ## Training
+- [x] Precursor (text input)
+- [x] 0.05 visual embedding dim + 1100 sequence length (Visual input)
+- [x] Multi-class multi-labels (output)
 
 ## Evaluation
 - [ ] Output: class label + probability (multi-label classification) -> natural language description

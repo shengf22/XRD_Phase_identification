@@ -28,14 +28,14 @@
 - [x] Dataset creation (save/load) for i) new cif and ii) ICSD
 
 ### Impurity and substrate study
-- [ ] Data collection: target material, potential impurities or substrates, corresponding ICSD (Inorganic Crystal Structure Database) for all materials, references
+- [ ] Data collection: target material, potential impurities or substrates, corresponding ICSD for all materials, references
 
 ### Dataloader
+- [x] Expand from nonzero to full range XRD
 - [x] Missing peak
-- [ ] Expand from nonzero XRD to full range XRD (5-60 2 theta, 0.01 step size, interpolation?)
 - [x] Random peak intensity 
 - [x] Random crystal size
-- [ ] Random mixing ratio
+- [x] Mixing of compounds, with random ratio
 - [ ] Add background noise
 
 ## Evaluation
@@ -47,4 +47,4 @@
 - [ ] Compare: No text prior / Wrong text prior
 
 ## Extra / bonus
-[ ] Various data range
+- [ ] Various data range

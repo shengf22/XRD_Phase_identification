@@ -45,9 +45,13 @@
 - [x] Multi-class multi-labels (output)
 
 ## Evaluation
-- [ ] Output: class label + probability (multi-label classification) -> natural language description
+- [x] Output: class label + probability (multi-label classification) -> natural language description
+- [x] Confusion matrix
 - [ ] Top5 accuracy (precision recall F1)
-- [ ] Confusion matrix
+
+- [x] XRD-XRD self attention
+- [x] Precursor-XRD self attention
+- [x] Precursor-Precursor self attention
 
 - [ ] Compare: No text prior / Wrong text prior
 

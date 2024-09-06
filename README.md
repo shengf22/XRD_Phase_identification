@@ -9,6 +9,7 @@
 - xrayutilities	1.7.4 (KJ) / 1.7.8 (FS)
 - pymatgen	2023.8.10 (KJ)
 - transformers 4.44.2 (KJ)
+- scikit-learn 1.3.2 (KJ)
 
 ## Goal
 - Natural language (text embedding) + XRD raw data (XRD embedding)

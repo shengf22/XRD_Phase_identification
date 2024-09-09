@@ -23,10 +23,9 @@
 - [x] Mixed cif generation, step size 20% across composition gradient
 
 ### Preprocess
-- [x] Lattice strain between -0.02~+0.02 for a, b, c; Step size 0.01
+- [x] Lattice strain between -0.002~+0.002 for a, b, c; Step size 0.001
 - [x] Label 1 - Element (EDS) and precursor label: MA Cs Pb Br (text input)
-- [x] Label 2 - Space group label: 64 (output)
-- [x] Label 3 - Chemical formula: gamma-CsPbI3 (human)
+- [x] Label 2 - Chemical formula: gamma-CsPbI3 (human)
 - [x] Dataset creation (save/load) for i) new cif and ii) ICSD
 
 ### Impurity and substrate study
@@ -34,28 +33,27 @@
 
 ### Dataloader
 - [x] Expand from nonzero to full range XRD
-- [ ] Substrate peak (ITO/FTO)
-- [x] Missing peak
 - [x] Random peak intensity
 - [x] Random crystal size
 - [x] Mixing of compounds, with random ratio
-- [x] Add background noise
+- [x] Background noise
 
 ## Training
 - [x] Precursor (text input)
-- [x] 0.05 visual embedding dim + 1100 sequence length (Visual input)
+- [x] Visual embedding dim + sequence length (Visual input)
 - [x] Multi-class multi-labels (output)
+- [x] Loss: CrossEntropyLoss (single-label); BCEWithLogitsLoss (multi-label)
 
 ## Evaluation
 - [x] Output: class label + probability (multi-label classification) -> natural language description
 - [x] Confusion matrix
-- [ ] Top5 accuracy (precision recall F1)
-
+- [x] Top5 accuracy (precision recall F1)
 - [x] XRD-XRD self attention
 - [x] Precursor-XRD self attention
 - [x] Precursor-Precursor self attention
-
-- [ ] Compare: No text prior / Wrong text prior
+- [x] Compare: No prior / EDS prior / precursor prior
+- [ ] Compare: Wrong text prior
 
 ## Extra / bonus
 - [ ] Various data range
+- [ ] Substrate peak (ITO/FTO)

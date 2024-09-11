@@ -24,8 +24,8 @@
 
 ### Preprocess
 - [x] Lattice strain between -0.002~+0.002 for a, b, c; Step size 0.001
-- [x] Label 1 - Element (EDS) and precursor label: MA Cs Pb Br (text input)
-- [x] Label 2 - Chemical formula: gamma-CsPbI3 (human)
+- [x] Label 1 - Element (EDS) or precursor label (e.g. MA Cs Pb Br as text input)
+- [x] Label 2 - Chemical formula (e.g. gamma-CsPbI3 as formal phase name)
 - [x] Dataset creation (save/load) for i) new cif and ii) ICSD
 
 ### Impurity and substrate study

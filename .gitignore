@@ -1,4 +1,5 @@
 *.ipynb_checkpoints
 *.xlsx
 models/*
+baselines/*
 pretrained_models/*/*.safetensors

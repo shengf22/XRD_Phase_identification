@@ -33,8 +33,10 @@
 
 ### Dataloader
 - [x] Expand from nonzero to full range XRD
+- [x] Preferred orientation
 - [x] Random peak intensity
 - [x] Random crystal size
+- [x] Random strain
 - [x] Mixing of compounds, with random ratio
 - [x] Background noise
 
@@ -52,8 +54,6 @@
 - [x] Precursor-XRD self attention
 - [x] Precursor-Precursor self attention
 - [x] Compare: No prior / EDS prior / precursor prior
-- [ ] Compare: Wrong text prior
 
 ## Extra / bonus
 - [ ] Various data range
-- [ ] Substrate peak (ITO/FTO)
